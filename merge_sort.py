@@ -2,7 +2,7 @@
 # Celine Ma 100874382
 # Assignment 2- Merge Sort Algorithm
 #----------------------------
-# import winsound
+import winsound
 
 # Merge Sort Algorithm
 def merge_sort(arr):
@@ -33,7 +33,7 @@ def merge(arr, left_half, right_half):
             arr[k] = right_half[j]
             j += 1
             # Play sound effect for swap
-            # winsound.Beep(1000, 100)
+            winsound.Beep(1000, 100)
         k += 1
 
     while i < len(left_half):
